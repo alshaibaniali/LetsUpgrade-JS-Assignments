@@ -1,0 +1,74 @@
+<!--
+The different datatypes in JavaScript:
+1-Numbers
+2-Bigint
+3-string
+4-boolean
+5-null
+6-undefined
+
+1-Numbers:
+
+The number type represents both integer and floating point numbers.
+
+There are many operations for numbers, e.g. multiplication *, division /, addition +, subtraction -, and so on.
+
+Besides regular numbers, there are so-called “special numeric values” which also belong to this data type: Infinity,
+
+Numbers can be written with, or without decimals:-->
+
+Example:
+var x1 = 34.00;     // Written with decimals
+var x2 = 34;        // Written without decimals
+
+<!--
+
+2-string:
+A string in JavaScript must be surrounded by quotes.
+A string (or a text string) is a series of characters like "John Doe".
+Strings are written with quotes. You can use single or double quotes-->
+Ex:
+
+var carName1 = "Volvo XC60";   // Using double quotes
+var carName2 = 'Volvo XC60';   // Using single quotes
+
+<!--
+
+4-boolean
+Booleans can only have two values: true or false. -->
+
+Ex:
+var x = 5;
+var y = 5;
+var z = 6;
+(x == y)       // Returns true
+(x == z)       // Returns false
+
+<!--
+
+5-Undefined
+In JavaScript, a variable without a value, has the value undefined. The type is also undefined. -->
+
+Ex:
+var car;    // Value is undefined, type is undefined
+
+<!---
+6-Empty Values:
+An empty value has nothing to do with undefined.
+
+An empty string has both a legal value and a type.  -->
+
+Ex:
+var car = "";    // The value is "", the typeof is "string"
+
+
+<!--
+7-Null
+
+In JavaScript null is "nothing". It is supposed to be something that doesn't exist.
+
+Unfortunately, in JavaScript, the data type of null is an object. -->
+
+Ex:
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+person = null;    // Now value is null, but type is still an object
